@@ -9,7 +9,7 @@ index = input.to_i - 1
 
 def valid_move?(board, index)
   
-   board[index].between?(1, 9)
+   index.between?(1, 9)
     # position_taken?(board, index)
   
      
