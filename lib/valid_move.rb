@@ -2,7 +2,7 @@
 input = gets.chomp
 
 
-index = input.to_i-1
+index = input.to_i - 1
 
 
 def valid_move?(board, index)
