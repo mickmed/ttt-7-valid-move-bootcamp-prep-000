@@ -1,5 +1,7 @@
 # code your #valid_move? method here
 
+
+
 def input_to_index(x)
   index = x.to_i-1
 end
