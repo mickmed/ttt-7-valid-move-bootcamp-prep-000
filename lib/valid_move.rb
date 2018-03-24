@@ -2,15 +2,15 @@
 
 #input = gets.strip
 
-def input_to_index(x)
-  index = x.to_i-1
-end
+# def input_to_index(x)
+#   index = x.to_i-1
+# end
 
-index = input_to_index(x)
+# index = input_to_index(x)
 
 
 def valid_move?(board, index)
-  if (board[index].between?(0, 8))
+  if (board[index.to_i-1].between?(0, 8))
      position_taken?(board, index)
      
   else
