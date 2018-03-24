@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 
-input = gets.strip
+#input = gets.strip
 
 def input_to_index(x)
   index = x.to_i-1
