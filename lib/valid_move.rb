@@ -1,16 +1,12 @@
 # code your #valid_move? method here
+input = gets.chomp
 
-#input = gets.strip
 
-# def input_to_index(x)
-#   index = x.to_i-1
-# end
-
-# index = input_to_index(x)
+index = input.to_i-1
 
 
 def valid_move?(board, index)
-  # index = index.to_i-1
+  
    board[index].between?(1, 9)
     # position_taken?(board, index)
   
