@@ -1,15 +1,15 @@
 # code your #valid_move? method here
 
-puts = "Please enter 1-9"
-input = gets.chomp
+# puts = "Please enter 1-9"
+# input = gets.chomp
 
 
-index = input.to_i - 1
+# index = input.to_i - 1
 
 
 def valid_move?(board, index)
   
-   index.between?(1, 9)
+   index.between?(0, 8)
     # position_taken?(board, index)
   
      
